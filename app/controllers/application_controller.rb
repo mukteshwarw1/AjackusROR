@@ -16,9 +16,10 @@ class ApplicationController < ActionController::Base
 	def extract_locale
 	  
 	  #save the language preferances in session for use in the subsequent request
-	  if(!params[:locale].nil?)
-	  	session[:locale] = I18n.locale 
+	  if(!params[:locale].nil? && params[:locale]!="")
+	  	session[:locale] = params[:locale] 
 	  end
+
 
 	  parsed_locale = params[:locale]
 	  I18n.available_locales.map(&:to_s).include?(parsed_locale) ? parsed_locale : nil
