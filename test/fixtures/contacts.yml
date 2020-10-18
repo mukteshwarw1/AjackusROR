@@ -1,9 +1,43 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  index: MyString
-  new: MyString
+  first_name: Mukteshwar
+  last_name: Prasad
+  email: mukteshwarp@gmail.com
+  phone_number: 9899999999
+  message: Hello rubyonrails
 
 two:
-  index: MyString
-  new: MyString
+  first_name: Shayam
+  last_name: Kumar
+  email: shyam@gmail.com
+  phone_number: 9899999991
+  message: Hello ruby on rails test
+
+user_with_no_last_name:
+  first_name: Shayam
+  last_name: 
+  email: shyam@gmail.com
+  phone_number: 9899999991
+  message: Hello ruby on rails test
+
+user_with_no_email:
+  first_name: Shayam
+  last_name: Kumar
+  email: 
+  phone_number: 9899999991
+  message: Hello ruby on rails test
+
+user_with_no_phone:
+  first_name: Shayam
+  last_name: Kumar
+  email: lsjfljsf@gmail.com
+  phone_number:
+  message: Hello ruby on rails test
+
+user_with_no_message:
+  first_name: Shayam
+  last_name: Kumar
+  email: lsjfljsf@gmail.com
+  phone_number: dfghjkjhgfddfgh
+  message: 

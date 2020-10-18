@@ -1,7 +1,20 @@
 require 'test_helper'
 
 class ContactControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
+  
+
+	test "should create contact and render thankyou template" do
+
+	  assert_difference("Contact.count") do
+	    post '/contact', params: { contact: { first_name: "Mukteshwar", last_name: "Prasad", 
+	    	email: "mp@gmail.com", phone_number: "9899876543", message: "Hello this is a test message" } }
+	  end
+
+	
+	  assert_template :thankyou
+
+	end
+
+
+
 end
