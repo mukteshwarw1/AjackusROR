@@ -45,6 +45,7 @@ $ yarn add bootstrap@4.3.1 jquery popper.js
 # Run Unit tests
 
 $ rails db:migrate RAILS_ENV=test
+
 $ rails test test
 
 
