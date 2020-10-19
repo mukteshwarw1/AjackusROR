@@ -48,4 +48,12 @@ hi:
   last_name: "अंतिम नाम"
   email: "ईमेल"
   phone_number: "फ़ोन नंबर"
-
+  validation_error_message: "निम्नलिखित त्रुटियों ने contact को सहेजने से रोका"
+  activerecord:
+    attributes:
+      contact:
+        first_name: "पहला नाम"
+        last_name: "अंतिम नाम"
+        email: "ईमेल"
+        phone_number: "फ़ोन नंबर"
+        message: "संदेश"

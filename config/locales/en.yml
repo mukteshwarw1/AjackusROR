@@ -48,3 +48,12 @@ en:
   last_name: "Last Name"
   email: "Email"
   phone_number: "Phone Number"
+  validation_error_message: "The following errors prevented the contact from being saved"
+  activerecord:
+    attributes:
+      contact:
+        first_name: "First Name"
+        last_name: "Last Name"
+        email: "Email"
+        phone_number: "Phone Number"
+        message: "Message"
