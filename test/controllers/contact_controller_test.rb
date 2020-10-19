@@ -16,5 +16,17 @@ class ContactControllerTest < ActionDispatch::IntegrationTest
 	end
 
 
+	test "should not create contact with invalid input" do
+
+	  assert_no_difference("Contact.count") do
+	    post '/contact', params: { contact: { first_name: "", last_name: "Prasad", 
+	    	email: "mp@gmail.com", phone_number: "9899876543", message: "Hello this is a test message" } }
+	  end
+
+
+	end
+
+
+
 
 end

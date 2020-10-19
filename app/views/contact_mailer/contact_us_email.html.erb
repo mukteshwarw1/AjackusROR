@@ -6,24 +6,23 @@
 
   <body>
 
-    <p> <strong> New Contact Request </strong> </p>
+    <p> <strong> <%= t 'new_contact_request' %> </strong> </p>
 
 
-    <p> Message: <%= @contact.message %> </p>
+    <p> <%= t 'message' %> : <%= @contact.message %> </p>
 
     
     <p>
 
       <strong>Sender Details:</strong><br>
 
-      First Name    : <%= @contact.first_name %> .<br>
-      Last Name     : <%= @contact.last_name %> .<br>
-      Email         : <%= @contact.email %> .<br>
-      Phone Number  : <%= @contact.phone_number %> .<br>
+      <%= t 'first_name' %>    : <%= @contact.first_name %> .<br>
+      <%= t 'last_name' %>     : <%= @contact.last_name %> .<br>
+      <%= t 'email' %>         : <%= @contact.email %> .<br>
+      <%= t 'phone_number' %>  : <%= @contact.phone_number %> .<br>
       
     </p>
 
-   
     
   </body>
 </html>

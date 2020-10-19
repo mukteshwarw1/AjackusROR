@@ -30,5 +30,10 @@ class ContactTest < ActiveSupport::TestCase
 	  assert_not contact.save
   end
 
+  test "should save contact with proper input" do
+	  contact = contacts(:one)
+	  assert contact.save
+  end
+
 
 end

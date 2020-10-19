@@ -43,5 +43,8 @@ en:
   thankyou: "Thank you for contacting us!"
   contact_you_soon: "We will get in touch with you soon."
   continue: "Continue to homepage"
-
-  
+  new_contact_request: "New Contact Request"
+  first_name: "First Name"
+  last_name: "Last Name"
+  email: "Email"
+  phone_number: "Phone Number"

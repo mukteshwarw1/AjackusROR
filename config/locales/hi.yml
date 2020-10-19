@@ -43,4 +43,9 @@ hi:
   thankyou: "हमसे संपर्क करने के लिए धन्यवाद!"
   contact_you_soon: "हम जल्द ही आपसे संपर्क करेंगे।"
   continue: "होमपेज पर जाये"
+  new_contact_request: "नया संपर्क अनुरोध"
+  first_name: "पहला नाम"
+  last_name: "अंतिम नाम"
+  email: "ईमेल"
+  phone_number: "फ़ोन नंबर"
 
