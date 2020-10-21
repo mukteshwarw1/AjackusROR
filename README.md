@@ -63,4 +63,6 @@ $ rails s
 ![Screenshot from 2020-10-18 14-37-24](https://user-images.githubusercontent.com/70621907/96363090-b44d8580-114f-11eb-8354-fd947fab0064.png)
 # Message received in Email:
 ![Screenshot from 2020-10-18 22-28-37](https://user-images.githubusercontent.com/70621907/96374837-dddbd080-1192-11eb-90e1-40e12e456a9c.png)
+# Code Coverage 98.82%
+![Screenshot from 2020-10-21 19-43-12](https://user-images.githubusercontent.com/70621907/96732911-7c0ba880-13d6-11eb-9609-d36521448fc9.png)
 
