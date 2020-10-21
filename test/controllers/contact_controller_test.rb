@@ -2,6 +2,11 @@ require 'test_helper'
 
 class ContactControllerTest < ActionDispatch::IntegrationTest
   
+  	test "should render contact form " do
+		get "/contact/new"
+  		assert_response :success
+
+	end
 
 	test "should create contact and render thankyou template" do
 
